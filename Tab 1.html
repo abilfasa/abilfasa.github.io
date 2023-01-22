@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <title>Tugas 13</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="w3.css">
+    </head>        
+    <body>
+        <div class="w3-container w3-light-blue w3-center">
+                <img src="images/indo.png" width="1300px" height="400px" >    
+        </div>
+        <div class="w3-bar w3-light-blue">
+            <button class="w3-bar-item w3-button w3-monospace" onclick="openKota('Menu')">Welcome</button>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button w3-monospace">About Indonesia</button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                        <button class="w3-bar-item w3-button" onclick="openKota('Sejarah')">Sejarah</button>
+                        <button class="w3-bar-item w3-button" onclick="openKota('Bendera')">Bendera</button>
+                        <button class="w3-bar-item w3-button" onclick="openKota('Simbol')">Semboyan</button> 
+                    </div>
+            </div>
+            <button class="w3-bar-item w3-button w3-monospace" onclick="openKota('Top')">Bandung</button>
+            <button class="w3-bar-item w3-button w3-monospace" onclick="openKota('Bottom')">Jakarta</button>
+            <button class="w3-bar-item w3-button w3-monospace" onclick="openKota('Left')">Bali</button>
+            <button class="w3-bar-item w3-button w3-monospace" onclick="openKota('Right')">Surabaya</button>
+            <button class="w3-bar-item w3-button w3-monospace" onclick="openKota('Opacity')">Lombok</button>
+            <button class="w3-bar-item w3-button w3-monospace" onclick="openKota('Zoom')">Aceh</button>
+            <button class="w3-bar-item w3-button w3-monospace" onclick="openKota('Fading')">Padang</button>
+            <button class="w3-bar-item w3-button w3-monospace" onclick="openKota('Spin')">Yogyakarta</button>
+            <button class="w3-bar-item w3-button w3-monospace" onclick="openKota('By')">Web By</button>
+        </div>
+                   
+        </div>
+        <div id="Menu" class="w3-container kota w3-teal w3-center" style="display:block">
+            <h2>SELAMAT DATANG !</h2>
+                <img src="images/cilukba.gif" ><hr>
+                <button class="w3-bar-item w3-button w3-cursive" onclick="openKota('Top')">Next</button>
+        </div>
+        <div id="Sejarah" class="w3-container kota w3-animate-top w3-teal w3-center" style="display:none">
+            <h1> Indonesia </h1>
+                <h5>Sejarah Indonesia meliputi suatu rentang waktu yang sangat panjang yang dimulai sejak zaman prasejarah berdasarkan penemuan "Manusia Jawa" yang berusia 1,7 juta tahun yang lalu. 
+                    Periode sejarah Indonesia dapat dibagi menjadi lima era: Era Prakolonial, munculnya kerajaan-kerajaan Hindu-Buddha dan Islam di Jawa, Sumatra, dan Kalimantan yang terutama mengandalkan perdagangan; Era Kolonial, masuknya orang-orang Eropa (terutama Belanda, Portugis, dan Spanyol) yang menginginkan rempah-rempah mengakibatkan penjajahan oleh Belanda selama sekitar 3,5 abad antara awal abad ke-17 hingga pertengahan abad ke-20; Era Kemerdekaan Awal, pasca-Proklamasi Kemerdekaan Indonesia (1945) sampai jatuhnya Soekarno (1966); Era Orde Baru, 32 tahun masa pemerintahan Soeharto (1966–1998); serta Orde Reformasi yang berlangsung sampai sekarang.</h5>
+        </div>
+        <div id="Bendera" class="w3-container kota w3-animate-top w3-teal w3-center" style="display:none">
+            <h1> Bendera Indonesia </h1>
+                <img src="images/flag.jpeg" width="500">
+                <h5>Bendera Negara Indonesia yang secara singkat disebut bendera negara adalah Sang Merah Putih.[1] Sang Saka Merah Putih, Merah Putih, atau kadang disebut Sang Dwiwarna (dua warna). Bendera Negara Sang Merah Putih berbentuk empat persegi panjang dengan ukuran lebar 2/3 (dua-pertiga) dari panjang serta bagian atas berwarna merah dan bagian bawah berwarna putih yang kedua bagiannya berukuran sama. Bendera kebanggaan Indonesia ini[1] merangkum nilai-nilai kepahlawanan, patriotisme, dan nasionalisme</h5>
+        </div>  
+        <div id="Simbol" class="w3-container kota w3-animate-top w3-teal w3-center" style="display:none">
+            <h1> Semboyan Negara Indonesia</h1>
+                <img src="images/smby.jpeg" width="500">
+                <h5>Bhinneka Tunggal Ika adalah moto atau semboyan bangsa Indonesia yang tertulis pada lambang negara Indonesia, Garuda Pancasila. Frasa ini berasal dari bahasa Jawa Kuno yang artinya adalah “Berbeda-beda tetapi tetap satu”.
+                    Kata bhinnêka berasal dari dua kata yang mengalami sandi, yaitu bhinna 'terpisah, berbeda' dan ika 'itu'. Kata tunggal berarti 'satu'. Secara harfiah, Bhinneka Tunggal Ika dapat diartikan "Itu berbeda, itu satu", yang bermakna meskipun beranekaragam, pada hakikatnya bangsa Indonesia tetap merupakan satu kesatuan. Semboyan ini digunakan untuk menggambarkan persatuan dan kesatuan Bangsa dan Negara Kesatuan Republik Indonesia yang terdiri atas beraneka ragam adat dan budaya, bahasa daerah, ras, suku bangsa, agama dan kepercayaan.</h5>
+        </div>  
+        <div id="Top" class="w3-container kota w3-animate-top w3-teal w3-center" style="display:none">
+            <h1>Bandung</h1>
+                <h5>Bandung merupakan kota dengan suasana sejuk dan asri di Jawa Barat. Apa keunikan dari Kota Bandung?
+                    Bandung mendapatkan julukan “Kota Kembang”, karena keasrian Kota Bandung yang memiliki banyak pohon besar. 
+                    Sebutan Kota Kembang diduga muncul sejak zaman kolonial di mana para gadis Belanda sering mengadakan karnaval menggunakan sepeda maupun kereta yang marak dengan hiasan bunga</h5> 
+                    <img src="images/bandung.jpg" width="600"><hr>
+                    <button class="w3-bar-item w3-button w3-cursive" onclick="openKota('Bottom')">Next</button>
+                   
+        </div>
+        <div id="Bottom" class="w3-container kota w3-animate-bottom w3-teal w3-center" style="display:none">
+            <h1>Jakarta</h1>
+                <h5>Jakarta memang terkenal sebagai kota Metropolitan dengan gaya hidup masyarakatnya yang modern dan dinamis. 
+                    Jakarta Pusat memiliki peran sebagai daerah pusat Pemerintahan Indonesia yang kaya akan daya tarik serta keunikan mulai dari kekayaan sejarah berdirinya negara, kesenian, dan wisatanya.
+                    Istana Negara dan Balikota berada di wilayah ini</h5> 
+                <img src="images/Jkt.jpeg"><hr>
+                <button class="w3-bar-item w3-button w3-cursive" onclick="openKota('Left')">Next</button>
+                   
+        </div>
+        <div id="Left" class="w3-container kota w3-animate-left w3-teal w3-center" style="display:none">
+            <h1>Bali</h1> 
+                <h5>Bali (juga dikenal sebagai Kepulauan Bali, Bali: ᬩᬮᬶ) adalah sebuah wilayah provinsi yang terletak di Indonesia. 
+                    Ibu kotanya adalah Denpasar. Provinsi Bali terletak di bagian barat Kepulauan Nusa Tenggara. Di awal kemerdekaan Indonesia, 
+                    pulau ini termasuk dalam Provinsi Sunda Kecil yang beribu kota di Singaraja, dan kini terbagi menjadi 3 provinsi, yakni Bali, Nusa Tenggara Barat, dan Nusa Tenggara Timur</h5>
+                <img src="images/bali.jpeg"><hr>
+                <button class="w3-bar-item w3-button w3-cursive" onclick="openKota('Right')">Next</button>
+                   
+        </div>
+        <div id="Right" class="w3-container kota w3-animate-right w3-teal w3-center" style="display:none">
+            <h1>Surabaya</h1>
+                <h5>Surabaya adalah ibu kota Provinsi Jawa Timur yang dikenal sebagai Kota Pahlawan. Surabaya terletak di daerah Pantai Utara, Provinsi Jawa Timur.
+                    Surabaya merupakan kota terbesar kedua setelah Jakarta dengan populasi penduduk sekitar 3 juta orang. 
+                    Nama Surabaya, sesuai dengan etimologinya, berasal dari kata Sura ata Suro dan Baya atau Boyo, dalam bahasa Jawa. 
+                    Suro adalah jenis ikan hiu, sedang boyo adalah istilah bahasa jawa untuk buaya. 
+                    Menurut mitos, dua hewan ini adalah binatang paling kuat yang juga menjadi simbol kota Surabaya sampai saat ini.
+                </h5> 
+                <img src="images/sby.jpeg"><hr>
+                <button class="w3-bar-item w3-button w3-cursive" onclick="openKota('Opacity')">Next</button>
+                   
+        </div>
+        <div id="Opacity" class="w3-container kota w3-animate-opacity w3-teal w3-center" style="display:none">
+            <h1>Lombok</h1> 
+                <h5>Pulau Lombok (jumlah penduduk pada tahun 2001: 2.722.123 jiwa) adalah sebuah pulau di kepulauan Sunda Kecil atau Nusa Tenggara yang terpisahkan oleh Selat Lombok dari Bali di sebelah barat dan Selat Alas di sebelah timur dari Sumbawa.
+                    Pulau ini kurang lebih berbentuk bulat dengan semacam "ekor" di sisi barat daya yang panjangnya kurang lebih 70 km. 
+                    Luas pulau ini mencapai 5.435 km²</h5>
+                <img src="images/lbk.jpeg"><hr>
+                <button class="w3-bar-item w3-button w3-cursive" onclick="openKota('Zoom')">Next</button>
+                   
+        </div>
+        <div id="Zoom" class="w3-container kota w3-animate-zoom w3-teal w3-center" style="display:none">
+            <h1>Aceh</h1>
+                <h5>Aceh adalah sebuah provinsi di Indonesia yang ibu kotanya berada di Banda Aceh. 
+                    Aceh merupakan salah satu provinsi di Indonesia yang diberi status sebagai daerah istimewa dan juga diberi kewenangan otonomi khusus. 
+                    Aceh terletak di ujung utara pulau Sumatra dan merupakan provinsi paling barat di Indonesia. 
+                    Menurut hasil sensus Badan Pusat Statistik tahun 2021, jumlah penduduk provinsi ini sekitar 5.333.733 jiwa</h5> 
+                <img src="images/aceh.jpg"><hr>
+                <button class="w3-bar-item w3-button w3-cursive" onclick="openKota('Fading')">Next</button>
+                   
+        </div>
+        <div id="Fading" class="w3-container kota w3-animate-fading w3-teal w3-center" style="display:none">
+            <h1>Padang</h1> 
+                <h5>Padang adalah kota terbesar di pantai barat Pulau Sumatra sekaligus ibu kota Provinsi Sumatra Barat, Indonesia. 
+                    Kota ini adalah pintu gerbang barat Indonesia dari Samudra Hindia.
+                    Secara geografi, Padang dikelilingi perbukitan yang mencapai ketinggian 1.853 mdpl dengan luas wilayah 693,66 km², lebih dari separuhnya berupa hutan lindung.</h5>
+                <img src="images/pdg.jpg"><hr>
+                <button class="w3-bar-item w3-button w3-cursive" onclick="openKota('Spin')">Next</button>
+                   
+        </div>
+        <div id="Spin" class="w3-container kota w3-spin w3-animated-spin w3-teal w3-center" style="display:none">
+            <h1>Yogyakarta</h1>
+                <h5>Yogyakarta atau dikenal oleh masyarakat setempat dengan nama Jogja atau Yogya adalah ibu kota sekaligus pusat pemerintahan dan perekonomian dari Daerah Istimewa Yogyakarta, Indonesia. 
+                    Kota ini adalah kota besar yang mempertahankan konsep tradisional dan budaya Jawa</h5> 
+                <img src="images/ygy.jpeg"><hr>
+                <button class="w3-bar-item w3-button w3-cursive" onclick="openKota('Menu')">Next</button>
+                   
+        </div>
+        <div id="By" class="w3-container kota w3-animated-zoom w3-white w3-center" style="display:none">
+            <h1> Created By </h1>
+                <img src="images/pp.jpg" width="500">
+                <h4>Abriel Fata Saptaji</h4><br>
+                <h5>10122219</h5>
+        </div>
+
+        <script>
+            function openKota(namakota) {
+                var i;
+                var x = document.getElementsByClassName("kota");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none"; 
+                    }
+                document.getElementById(namakota).style.display = "block"; 
+            }
+        </script>
+
+    </body>
+</html
